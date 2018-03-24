@@ -67,7 +67,11 @@ pack() {
 		else
 			vapp $name
 			tar -zcvf $name.tar.gz $name/
-			sed -i "/$name/d" ../md5.txt
+			if [ "`uname -s`" == "Darwin" ]; then
+				sed -i "" "/$name/d" ../md5.txt
+			else
+				sed -i "/$name/d" ../md5.txt
+			fi
 			$md5 ./$name.tar.gz >> ../md5.txt
 		fi
 		mv -f ./*.tar.gz ../appstore
