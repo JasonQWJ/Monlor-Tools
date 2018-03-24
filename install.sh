@@ -88,7 +88,7 @@ uci commit monlor
 # 		[ ! -f $userdisk/.monlor.conf ] && cp /etc/monlor/config/monlor.conf $userdisk/.monlor.conf
 # 	fi
 # fi
-kill -9 $(echo $(ps | grep monlor | grep -v grep | awk '{print$1}')) > /dev/null 2>&1
+kill -9 $(echo $(ps | grep monlor/scripts | grep -v grep | awk '{print$1}')) > /dev/null 2>&1
 $monlorpath/scripts/init.sh
 rm -rf /tmp/monlor.tar.gz
 rm -rf /tmp/monlor
