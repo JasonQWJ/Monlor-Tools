@@ -1,0 +1,336 @@
+!  -----:  2018-01-12 14:42:10   by:kysdm-----
+!
+!  -----规则兼容koolproxy，部分兼容Adbyby-----
+!
+!---114la.com
+114la.com##[id^="Game"],#HDtopBar,#imgArr
+!---16book.org
+|https://www.16book.org##[id^="tanx"],[id^="cs_CFdivdlST_"],[class^="ad"]
+||https://16book.org/*.js$s@function yuedu*function downapp()@function fuck()@
+!---23us.cc 23us.la 同站长
+|https://m.23us.cc/jsa/bread.js
+|https://m.23us.la/js/bread.js
+!---5chajian.com
+5chajian.com##[id^="ad_"]
+|http://m.cloud.189.cn/source/images/banner.png
+!---5326t.com 5746t.com 9904t.com 同站长
+|https://www.5326t.com/js/mobile.js
+|https://www.5326t.com/js/Collection.js
+|https://www.5326t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
+|https://www.5746t.com/js/mobile.js
+|https://www.5746t.com/js/Collection.js
+|https://www.5746t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
+|https://www.9904t.com/js/mobile.js
+|https://www.9904t.com/js/Collection.js
+|https://www.9904t.com/js/jquery.js$s@btnClose = '<*adRightFloatBottom,ofloat:1})@{@
+!---3344ja.com
+|https://www.3344ja.com/js/$script
+|https://www.3344ja.com##[class="main top"]
+|https://www.989bt.com##[width="1100"][height="90"]
+!---360doc.cn 360doc.com
+360doc.cn###fixid
+|https://w5sac788c1.360doc.cn/tnrvrka.js
+|https://mipcache.bdstatic.com/static/v1/mip-360doc-script/mip-360doc-script.js
+|https://mipcache.bdstatic.com/extensions/platform/v1/mip-360docad-script/mip-360docad-script.js
+|http://www.360doc.cn/mip$s@<div class="w1">*<div class="footer_nav_box">@<div class="footer_nav_box">@
+|http://www.360doc.com/content/$s@</body>@<script>document.body.oncopy=null;document.body.__defineSetter__("oncopy",function(){})</script></body>@
+!---52fuqing.com
+|http://news.52fuqing.com$s@<div class="nr" oncopy="alert('*!');return false;">@<div class="nr">@
+!---5icool.org
+|http://www.5icool.org/statics/js/function.js$s@$("#top_slide")@//@
+!---88dushu.com
+|http://m.88dushu.com/mobile/css/m.js$s@function baba_*()@function fuck()@
+!---acgnx.se
+|https://share.acgnx.se##img[src="/images/gDqF4N4b.png"],img[src="/images/cjTQH5PQ.png"]
+|https://share.acgnx.se/images/gDqF4N4b.png
+|https://share.acgnx.se/images/cjTQH5PQ.png
+!---aies.cn
+aies.cn##ins.adsbygoogle
+!---baidu.com
+|https://www.baidu.com$s@<script type="text/javascript">var zbBanner = {switch: '1',startTime:*, storage.ls, B.log);});});}</script>@@
+|http://tieba.baidu.com/p/$s@<div id="fixed_bar" class="showBar"><img src="*" alt="" class="close">@@
+!---baquge.tw
+|https://www.baquge.tw##[class$="_ad"]
+|https://wap.baquge.tw/files/article/html/*.html$s@<script type="text/javascript" src="/js/common.js"></script>@@
+!---bbs99.club
+bbs99.club###hd > div > div.a_2mu > center,#nv_forum > div.wp.a2_h > center,#postlist > table.ad > tbody > tr > td.plc > div > center
+|http://nz04com.com/aabdd/aaaddpics/$image
+||https://lieshazhe.com/vs.php?id=
+!---biqubao.com
+|https://www.biqubao.com##[class$="_ad"]
+|https://m.biqubao.com/book/*.html$s@<script type="text/javascript" src="/js/common.js"></script>@@
+!---biqudao.com
+|https://m.biqudao.com##[id^="i"]
+|https://www.biqudao.com/js/bqg.js$s@function list*()@function fuck()@
+|https://www.biqudao.com/js/bqg.js$s@function read*()@function fuck()@
+!---biqudu.com
+|https://m.biqudu.com/js/wap.js$s@function biqu_top()*function tj()@function fuck()@
+!---biquge.cc
+|https://www.biquge.cc##[class$="_ad"]
+|https://m.biquge.cc/jsa/bread.js
+!---biquge.cm
+|https://m.biquge.cm/skin/common.js$s@function skin_middle()*function skin_xuanfu()@function fuck()@
+|https://www.biquge.cm/images/BiQuGeCm.js$s@function dl()*function read4()@function fuck()@
+!---biquguan.com
+|https://www.biquguan.com##[class$="_ad"]
+|https://m.biquguan.com/js/bread.js$s@function hf()*function app2()@function fuck()@
+!---biquwu.cc
+|https://www.biquwu.cc##[class$="_ad"]
+!---bokon.net
+|http://m.bokon.net$s@<div style="height:200px;"></div>@@
+|http://www.bokon.net$s@<div id="float_*/mulu.js"></script>@<div>@
+!---btbtdy.com
+|http://www.btbtdy.com/templets/btdy/js/ad9401.js
+|http://www.btbtdy.com/templets/btdy/js/slade888.js
+!---bttiantangs.com
+bttiantangs.com###sidebar-follow,[class="full-width row"]
+|http://www.bttiantangs.com$s@<script src="http://j.qiqivv.com*"></script>@@
+|http://www.bttiantangs.com$s@<script type="text/javascript" src="http://bttt99.kkcaicai.com:8080/tan.js"*"></script>@@
+!---bttt.la
+|https://style.bttt.la/static/ad.js
+|https://style.bttt.la/static/wen_960.js
+!---btbtt88.com
+|http://www.btbtt88.com/slade.js
+!---cnbeta.com
+cnbeta.com##.cbv810
+!---cnbtkitty.com
+|http://cnbtkitty.com/$s@<div class="footer" >*<div class="copyright">@<div class="footer" ><div class="copyright">@
+|http://cnbtkitty.com/$s@<a style='font-weight:bold;color:#f00;' href='*</a></span>@</span>@
+|http://cnbtkitty.com/$s@<a style="width:100%;" href="*" /></a>@@
+!---comicat.org
+|http://m.comicat.org$s@document.referrer.indexOf(document.domain) !@-1 @
+||comicat.org##img[src^="https://ooo.0o0.ooo/"],[class^="gg_canvas gg_canvas-hidden"]
+!---ctfile.com
+|https://mydisplay.ctfile.com/ad_display.php?ad_pos=
+|https://static.ctfile.com/js/bd_stat.js?v=
+||https://ctfile.com##a[href="https://union.ctfile.com"],iframe[width="380"][height="80"]
+||https://ctfile.com/i/$s@<script src="https://mydisplay.ctfile.com/iz.php?i=*"></script>@@
+||https://ctfile.com/i/$s@<script type="text/javascript">var _popup_ispoped = false;*);</script>@@
+!---ddbiquge.com
+|https://m.ddbiquge.com/xxgg/book.js
+!---ddooo.com
+|http://www.ddooo.com/public/uaredirect.js$s@function do_main(parm)@function fuck()@
+!---dmhy.org
+@@|https://share.dmhy.org/images/$image
+|https://share.dmhy.org##img[width="1280"][height="120"]
+|https://share.dmhy.org$image
+!---dyxz5.com
+|http://www.dyxz5.com##div[style="text-align:center"]
+!---eastday.com
+||eastday.com/assets/js/resources/new_detail_v2/detail.js?130480502
+!---enbte.com
+|http://www.enbte.com/Public/Ad/Ad-*.js
+!---eee196.com ttt255.com uuu227.com  同站长
+|https://www.eee196.com/js/indextop.js
+|https://www.uuu227.com/js/indextop.js
+|https://www.ttt255.com/js/indextop.js
+|https://www.eee196.com/js/config.js
+|https://www.uuu227.com/js/config.js
+|https://www.ttt255.com/js/config.js
+!---ettoday.net
+|https://ad.ettoday.net
+|https://static.ettoday.net/ad/
+|https://static.ettoday.net/style/adult/adult-alert.js
+|https://player.h-cdn.com/loader.js?customer=ettodaynet$script
+!---------------------------------Ff------------------------------------------
+!---gamersky.com
+|http://ja1.gamersky.com/js/*/js/content.js
+|http://ja1.gamersky.com/tips/all_tips.js
+!---goudidiao.com
+goudidiao.com##[class^="img-responsive"],[style$="red;"]
+!---huoche.net
+|https://www.huoche.net##img[src^="/public/ad/"]
+|https://www.huoche.net/$s@开始-->*结束-->@-->@
+!---hunhun520.com
+||https://hunhun520.com/*.js$s@function yuedu_1()*function downapp()@function fuck()@
+|https://www.hunhun520.com##[id^="cs_CFdivdlST_"]
+!---ifeng.com
+ifeng.com##div.blockR.iphone_none.ipad_none,.bd_t5
+!---itellyou.cn
+|https://msdn.itellyou.cn/images/20171128122518214.png
+!---javbus3.com 因插件原因只在IE下生效
+|https://adserver.juicyads.com/
+|https://www.javbus3.com##div.ad-list,div.col-xs-12.col-md-4.text-center.ptb10
+|https://www.javbus3.com$s@<script type="text/javascript">var ad_idzone="*",ad_width="728",ad_height="90";</script>@@
+|https://www.javbus3.com$s@<h4 style="position:relative">*</span><span class="glyphicon glyphicon-envelope"></span></span></a></h4>@@
+|https://www.javbus3.com/ads/$image
+!---kafan.cn
+|https://bbs.kafan.cn##iframe[width="500"][height="200"]
+!---kisssub.org
+kisssub.org##div.ads-full-width,.clear.text_center,div.box[style="overflow:hidden;"],[class^="gg_canvas gg_canvas-hidden"]
+|http://m.kisssub.org$s@document.referrer.indexOf(document.domain) !@-1 @
+!---laonanren.com
+|https://www.laonanren.com/js/page.js
+|https://www.laonanren.com/js/search.js$s@$('<div style=@('<div style=@
+!---loldytt.com
+|https://www.loldytt.com##[id^="qj"],#xinxi,#gegz
+|https://www.loldytt.com$s@<script src="https://img.aolusb.com/forever/*.js"></script>@@
+!---live.com
+||https://outlook.live.com##div[aria-label="广告"],img[aria-label="设置广告首选项"]
+!---mobanwang.com
+mobanwang.com##.linkyun,.topBannerYun,.guge,.g590x40
+|http://g1.pptair.com^$script
+|http://fonts.mobanwang.com$s@<div id="searchTop">*</a></span>@<div id="searchTop">@
+!---------------------------------Nn------------------------------------------
+!---oyksoft.com
+oyksoft.com##[id^="down-"]
+!---------------------------------Pp------------------------------------------ 
+!---qu.la
+|https://m.qu.la/jsa/p.js
+|https://code.zantainet.com/j$script
+|https://www.qu.la##[class$="_ad"]
+!---rarbg.is
+|https://rarbg.is$s@var _wm3_settings={popunder:*</script>@</script>@
+|https://dyncdn.me/static/20/js/expla60.js
+|https://dyncdn.me/static/20/js/xqijtezmrschyl.js
+|https://rarbg.is$s@; } else { if (typeof(_wm3) !== 'undefined')*{ _wm3.format.popunder.isTriggered = true; } } @@
+!---rmdown.com
+rmdown.com##img[width="468"][height="60"],img[width="760"][height="90"]
+!---soxunlei.net
+|https://www.soxunlei.net/wap/$script
+|https://zz.bdstatic.com/linksubmit/push.js
+!---subhd.com
+subhd.com##a[href$="login"],a[href$="vip"],[style^="text-align:center;height:210px"]
+|http://cdn.xianliao.me/assets/$script
+!---t66y.com
+img588.net##[class^="ad-"],[class^="google-ad"]
+|http://www.rmdown.com/link.php?hash=$s@function dpos(str)@function fuck()@
+|http://t66y.com/htm_data$s@<br><img src='http://kk.51688.cc*style='cursor:pointer'>&nbsp;<br>@@
+|http://t66y.com/htm_data$s@<b><span class="f24">*</a></span></b><br>@@
+|http://t66y.com/htm_data$s@<b><span class="f14">*</a></span></b><br>@@
+|http://t66y.com/htm_data$s@<a href='http://www.viidii.info/?http* WIDTH="100%" HEIGHT=500></iframe><br><br>@@
+|http://t66y.com/htm_data$s@<br /><div class="tpc_content do_not_catch"><img src='http*.gif' onclick="window.open('*;" style='cursor:pointer'>&nbsp;<br>@<br /><div class="tpc_content do_not_catch">@
+|http://t66y.com/htm_data$s@<br><img src='http*.gif' onclick="window.open('*;" style='cursor:pointer'>&nbsp;<br>@@
+!---taoyizhu.com
+taoyizhu.com##[class^="fixed-banner-"],[class^="float-banner banner-"]
+!---thzok.com thzthz.net thzvv.com thztv.net  桃花族域名
+thztv.net,thzvv.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"],img[height="300"][width="336"]
+thzvv.com##img[height="400"][width="180"],img[height="250"][width="250"],img[height="300"][width="300"],img[style*="width:960px;"],img[style$="width:480px;height:60px;"],.it618_firstad_flex,td[style="text-align:center;"]
+|http://thzvv.com/imc_attachad-ad.html?aid=$s@<div style="WIDTH: 100%; padding-left:10px;">*<div style="padding-left:10px;">@<div style="padding-left:10px;">@
+!---tmetb.net hkslg.net 同站长
+|https://js.tmetb.net/$script
+|https://js.hkslg.net/$script
+|https://www.hkslg.net/gaogao/zhangjie/page-*.js
+||https://tmetb.net/*.js$s@function yuedu_1()*function downapp()@function fuck()@
+||https://hkslg.net/*.js$s@function yuedu_1()*function downapp()@function fuck()@
+!---tsdm.me
+tsdm.me###ts_sidebar_base,[colspan="5"],img[width="480"][height="90"],img[width="470"][height="90"]
+|http://www.tsdmw.net/img01/MP3/
+|http://ww1.sinaimg.cn/large/7044f931gw1ehw1zny52yg209p03c74g.gif
+|http://www.tsdm.me/plugin.php?id=np_cliworkdz:work$s@style="float:left;width:240px"><a href="*target="_blank">@style="float:left;width:240px"><a href="javascript:void(0);" target="_blank">@
+|http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@var openTargetUrl = '';*window.open(openTargetUrl);@@
+|http://www.tsdm.me/plugin.php?id=dsu_paulsign:sign$s@showMenu({'ctrlid':this.id, 'pos':'21'});"><center><a href="*target="_blank">@showMenu({'ctrlid':this.id, 'pos':'21'});"><center>@
+!---------------------------------Uu------------------------------------------
+!---viidii.info
+viidii.info##img[width="468"][height="60"]
+!---wangpan007.com
+||https://hanqidq.com
+|https://wangpan007.com/cpc/wangpan007.js$s@withJQ(function()@@
+|https://wangpan007.com/$s@<script type="text/javascript" src="https://1.hslyqs.com/c.js"></script>@@
+|https://wangpan007.com/$s@<script type="text/javascript" src="https://j.sdqoi2d.com/r/er_20450_8682.js"></script>@@
+|https://m.wangpan007.com/$s@<script type="text/javascript" src="/cpc/cpm.js"></script>@@
+!---xs74.com
+||https://xs74.com/*.js$s@function yuedu_1()*function downapp()@function fuck()@
+|https://www.xs74.com##.mb_21b,[id^="tanx"],[id^="cs_CFdivdlST_"]
+!---ybdu.com
+|https://www.ybdu.com##[style*="width: 300px; height: 250px;"],iframe[src^="https://c.v4dwkcv.com/"]
+|https://m.ybdu.com/wap/common.js$s@function info_top()*function home_bottom()@function fuck()@
+!---yeyemo.net
+|http://yeyemo.net/$s@<div align="center">*</div>@@
+!---youtube.com
+|https://www.youtube.com##[id$="-ad"]
+!---zdfans.co
+zdfans.com##a[href^="http://13191a.com"]
+!---zimuku.cn  替换部分加载巨慢的资源地址
+zimuku.cn##img[width="200px"][height="auto"]
+|http://www.96518.org/url.php
+|http://www.zimuku.cn/images/v2/js/bn.js
+|http://www.zimuzu.tv$s@"https://p.tanx.com/ex?i=*"@""@
+|http://www.zimuku.cn$s@<script src='/images/ad/foot.js*'></script>@@
+|http://www.zimuku.cn$s@<div style="position:fixed; text-align:center;*</a></div></div>@@
+|http://www.zimuku.cn$s@src="/images/v2/no_litpic.gif"@src="//wx2.sinaimg.cn/large/a1ce17b8gy1fna3pzxn42g202s03wjr5.gif"@
+!---zimuzu.tv
+zimuzu.tv###help,[style^="text-align:center;"],li.rel
+!---zwdu.com
+|https://m.zwdu.com##[id^="iIk_tfta"],[style^="height:95px;width:100"],img[src^="http://m.kaquansc.com/"],img[src^="http://os.vchuan88.com"]
+|https://www.zwdu.com##img[width="960"][height="90"]
+!
+!---------------------APP-------------------
+!---APP搜狗输入法软件中心软件更新推送  误拦截???
+|http://notify.zhushou.sogou.com/checkupdatenotify/input.html?token=
+!---APP触宝电话  （不全，拦截意义不大)
+|http://ws2.cootekservice.com/ad/
+|http://touchlife.cootekservice.com/yellowpage_v3/reward_query?&_token=
+|http://touchlife.cootekservice.com/voice_actor/get_service_unit?_token=
+|http://ws2.cootekservice.com/advertise/platform/get
+|http://ws2.cootekservice.com/news/goldegg?latitude=
+|http://dialer.cdn.cootekservice.com/AD/
+|http://touchlife.cootekservice.com/redpacket/query?_token=
+|http://ws2.cootekservice.com/notification_center/8196fd2a-9587-4918-968f-7753845283ff/
+!---APP今日头条
+||http://snssdk.com/api/ad/
+||https://snssdk.com/api/ad/   
+||https://snssdk.com/*/app_ad/
+||http://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+||https://snssdk.com/api/news/feed/v71/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+||https://snssdk.com/api/news/feed/v72/?list_count=$s@{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""},@@
+||https://snssdk.com/api/news/feed/v72/?list_count=$s@,{"content":"{\"abstract\":\"\",\"action_list\":[{\"*","code":""}]@]@
+||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"*","name":"ad"},@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"app\":{\"ad_id\"*"is_preview\":false}","name":"ad"},@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\"*"}}","name":"ad"},@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"form\":{\"button_text\":\"*"},\"is_preview\":false}","name":"ad"},@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@{"ad_data":"{\"image\":{\"filter_words\":[{\"*"},\"is_preview\":false}","name":"ad"},@@
+||https://snssdk.com/2/article/information/v24/?latitude=$s@"ordered_info":[{"ad_data":"{\"*","name":"ad"}],@@
+!||https://snssdk.com/2/article/information/v24/?latitude=$s@"ordered_info":[{"ad_data":"{\"is_preview\":false,\"mixed\":{\"button_text\":\"*"}}","name":"ad"}],@@
+!|https://snssdk.com/2/article/information/v24/?latitude=$s@"ordered_info":[{"ad_data":"{\"form\":{\"button_text\":\"*"},\"is_preview\":false}","name":"ad"}],@@
+||https://snssdk.com/2/article/information/v24/?latitude=$s@[{"ad_id":*"type":"web","web_url":"*"},@[@
+||https://snssdk.com/2/article/information/v24/?latitude=$s@{"data":{"ad":{"is_preview":false,"mixed":{"button_text":"*},"ban_bury":@{"data":{"ban_bury":@
+||https://snssdk.com/wenda/v1/answer/information/?wd_version=$s@,{"name":"ad","ad_data":"{\"*"is_preview\": false}"}@@
+!---APP优酷视频 by houzi-（误拦截？？？）
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\.mp4\?ccode=.*&duration=(30|15|5)&expire=.*/@http://www.youku.com/0.mp4@
+!/^http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/cache\/.*\/youku.com\/.*\.mp4\?.*&duration=20.*/
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&ups_client_netip=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/youku\/6.*\/0300080100.*(\.mp4\?|.flv\?)sid=.*&ctype=(50|(([1-4])[0-9])|(0?[1-9]))/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/03000.*(\.mp4\?|.flv\?)ccode=.*&duration=(30|((1|2)[0-9])|(0?[1-9]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&duration=(75|((6)[0-9])|(7[0-4]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&duration=(138|((13)[5-7]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300080100.*(\.mp4\?|.flv\?)ccode=.*&duration=(175|((17)[0-4]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\/0300020100.*\.flv\?ccode=.*&duration=(185|((18)[0-4]))&expire=18000&psid=.*/@http://www.youku.com/0.mp4@
+!|http://0.0.0.0/$r@/http:\/\/((1\d{2}|25[0-5]|2[0-4]\d|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/6.*\.flv\?ccode=.*&duration=(30|15|5)&expire=.*/@http://www.youku.com/0.mp4@
+!---APP追书神器
+|http://api.zhuishushenqi.com/splashes/android
+|https://api10e46r.zhuishushenqi.com/splashes/ios
+|http://api.zhuishushenqi.com/notification/shelfMessage?platform=android
+|https://api10e46r.zhuishushenqi.com/notification/shelfMessage?platform=ios
+|http://api.zhuishushenqi.com/advert?platform=android&position=all
+|https://api10e46r.zhuishushenqi.com/advert?platform=ios&position=all
+|https://net.rayjump.com/openapi/ad/v3?ad_num=
+!
+!----------------------------------特殊-------------------
+!--迅雷9去右边框广告
+|http://misc-xl9-ssl.xunlei.com/d/dist/static/js/*.js
+!--右边框背景图片
+|http://misc-xl9-ssl.xunlei.com/d/dist/static/img/bg1.*.jpg$image
+!--右边框页面替换，可替换成百度等页面
+!http://pc.xunlei.com/?key=*&m=0f$r@http://pc.xunlei.com/?key=*&m=0f@www.baidu.com@
+!--VIP
+|http://v.youku.com/v_show/$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
+|http://v.youku.com/v_show/$s@</body>@<script>insVIP('fns','player');</script></body>@
+||v.youku.com/v_show/*###player:not([style])>iframe{height:calc(100% - 50px)}csshack
+|http://www.tudou.com/albumplay/*.html$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
+|http://www.tudou.com/albumplay/*.html$s@</body>@<script>insVIP('tab_nav fix','player');</script></body>@
+|http://www.tudou.com/albumplay/*.html##.tab_nav.fix select{margin-top:11px;font-size: 15px}csshack
+|http://www.iqiyi.com/v_$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip_iqiyi.js"></script></head>@
+|http://www.iqiyi.com/v_$s@</body>@<script>insVIP('mod-play-tit','flashbox');</script></body>@
+|http://www.iqiyi.com/v_##div[style*="absolute"][style*="visibility"]
+|http://www.le.com/$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
+|http://www.le.com/$s@</body>@<script>insVIP('j-video-name video-name','fla_box');</script></body>@
+||sohu.com/crossdomain.xml$c
+||https://sohu.com/album/##.player-content-info>select{margin-top:20px;font-size: 15px}csshack
+|http://tv.sohu.com$s@</body>@<script type="text/javascript" charset="utf-8" src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Code-SD/vip.js"></script><script>insVIP("left","#D3342E","player_vipTips","100%");</script></body>@
+|https://film.sohu.com$s@</body>@<script type="text/javascript" charset="utf-8" src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Code-SD/vip.js"></script><script>insVIP("detailInfo_box","#E3B53D","playerWrap","100%");</script></body>@
+|https://v.qq.com/x/*.html$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip_qq.js"></script></head>@
+|https://v.qq.com/x/*.html$s@</body>@<script>insVIPssl('action_wrap cf','tenvideo_player');</script></body>@
+|https://v.qq.com/x/*.html##[class="action_wrap cf"]>select{margin-top:18px}[class="action_item action_count"] .icon_text
+|https://www.mgtv.com/b/$s@</head>@<script src="//coding.net/u/kysdm/p/ad-rules/git/raw/master/vip-js/Caeseason/vip.js"></script></head>@
+|https://www.mgtv.com/b/$s@</body>@<script>insVIP("v-panel-count","mgtv-player-wrap");</script></body>@
